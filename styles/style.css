@@ -322,6 +322,7 @@ nav li a {
 
 }
 
+
 .sec-3 .p-2 {
 
     font-weight: 400;
@@ -339,6 +340,19 @@ nav li a {
 }
 
 
+.icon :hover{
+
+    background-color: lightblue;
+}
+
+
+.icon :hover .icon1{
+
+    transform: scale(1);
+    
+}
+
+
 .sec-3 .icon .icon1 {
 
     position: relative;
@@ -351,6 +365,8 @@ nav li a {
     height: 200px;
     border-radius: 8px;
     align-items: center;
+    transform: scale(1);
+    transition: .1s ease-in;
 
 
 }
@@ -368,6 +384,8 @@ nav li a {
     border: 1px solid #FF900E;
 
     border-radius: 8px;
+    transform: scale(1);
+    transition: .1s ease-in;
 }
 
 .sec-3 .icon .icon3 {
@@ -383,6 +401,8 @@ nav li a {
     border: 1px solid #FF900E;
 
     border-radius: 8px;
+    transform: scale(1);
+    transition: .1s ease-in;
 }
 
 .sec-3 .icon .icon4 {
@@ -398,12 +418,16 @@ nav li a {
     border: 1px solid #FF900E;
 
     border-radius: 8px;
+    transform: scale(1);
+    transition: .1s ease-in;
 }
 
 .sec-3 .icon .num {
 
     font-weight: 600;
     font-size: 40px;
+    
+
 }
 
 .sec-3 .icon .text {
@@ -411,7 +435,31 @@ nav li a {
     font-weight: 600;
     font-size: 15px;
     color: #727272;
+
 }
+
+.Thank-you{
+
+    font-weight: 700;
+    
+    
+    font-size: 45px;
+    color: #131313;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    position: relative;
+    text-align: center;
+    padding-top: 60px;
+    margin-left: 400px;
+    
+    border: 1px solid #FF900E;
+    background-color: #FF900E;
+    width: 400px;
+    height: 200px;
+    border-radius: 8px;
+}
+
 
 .sec-4 .Sponspors{
 
